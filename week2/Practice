@@ -1,0 +1,14 @@
+DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Page - 1</title>
+</head>
+
+<body>
+    <h1>This is a test. It is only a test.</h1>
+    <p>This is a sentence on the test page.</p>
+    <p>Hopefully, this is a sentence beneath the first one.</p> 
+</body>
+</html>
