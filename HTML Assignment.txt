@@ -1,1 +1,15 @@
-HTML Assignment
+HTML Assignment<!DOCTYPE html>
+<html lang="en">
+<font>calibri</font>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lisa Caldwell's HTML Assignment</title>
+</head>
+<article> <h1>About Me</h1> </aritcle>
+<p>About me...
+</p>
+
+<body>
+</body>
+</html>
