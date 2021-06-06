@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <!-- This is an HTML comment -->
+    <!--This is an HTML comment -->
     <!--
     ctrl + left/right arrow keys = move to start or end of line
     ctrl + up/down arrow keys = move to start or end of page
@@ -21,21 +21,23 @@
     <!-- site header -->
     <!--ctrl + left/right arrow keys move to start or end of line 
     ctrl + left/right arrow keys move to start or end of line>
-    <!--This is an HTML comment.-->
+    <!--This is an HTML comment. -->
     <!--The most important heading. Can use 6 levels of headings, from h1 to h6-->
     <h1> Welcome to Reggie's Coffee Shop!</h1>
-    nav<ul>
+    <nav><ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact Us</a></li>
 
-</ul></body>nav>
+</ul>
+</nav>
+</body>
 <header>
-    <! starting main content of the page -->
+    <!--! starting main content of the page -->
     <h1></h1>
 </header>
 <main>
   <h2>Contact Us</h2>
-  <!-- Adding table for hours-->-->
+  <!-- Adding table for hours-->
   <table>
       <caption>Hours of Operation</caption>
       <thead>
@@ -45,7 +47,7 @@
           </tr>
           <tbody>
             <tr>
-                <td>Mon - Fri</td>
+                <td>Monday - Friday</td>
                 <td>6:00-21:00</td>
             </tr>
             <tr>
@@ -56,10 +58,50 @@
                 <td>Sunday</td>
                 <td>Closed</td>
             </tr>
-
-          </tbody>
-      </thead>
+</tbody></thead>
   </table>
+  <!-- Adding section for contact form-->
+  <section>
+      <h3>We would love to hear from you!</h3>
+      <!--Adding a form-->
+      <form action="thanks.html" method="get">
+        <div>
+     <label for="fullname">Your Name </label> 
+     <input id="fullname" type="text" name="fullname" placeholder="Juan Valdez" value="Mr./Mrs./Ms.">
+            </div>     
+     <label for="youremail">Email</label>
+     <input type="email" id="youremail"name-"youremail required">
+     </div>
+     <div>
+         <label for="message">Message</label>
+         <textarea name="message" id="message"></textarea>
+     </div>
+     <div>
+         <label for="tickets">How many tickets? &#40;sold in pairs&#41;</label>
+         <input type="number" id="tickets" name="tickets"  min="2" max="10" step="2" value="2">
+     </div>
+     <div>
+         <label for="row">Select Row</div></label>
+            <select name="row" id="row">
+                <option value="front">Front Row</option>
+                <option value="centre" selected>Centre Row</option>
+                <option value="back">Back Row</option>
+          </select>
+          <div>
+              <h3>Have you been here before?</h3>
+              <label for="yes">Yes</label>
+              <input type="radio" id="yes" name="past" checked>
+
+              <label for="no">No</label>
+              <input type="radio" id="no" name="past">
+          </div>
+     </div>
+     <h3>Policies</h3>
+     <input type="checkbox" name="policies" id="policies">
+     <label for="policies">I agree to the terms and policies.</label>
+     <button type="submit">Submit</button>
+      </form>
+  </section>
 </main>
 <footer> Copyright &copy; Reggie&#39;s Coffee Shop, 2021</footer>
 
